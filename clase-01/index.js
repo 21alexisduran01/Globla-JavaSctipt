@@ -110,7 +110,7 @@ Cada tipo de dato tiene sus propias caracteristicas
 // decrementador --
 
 // Operadores de comparacion -> devuelven un booleano
-// =>
+// =
 // <
 // >=
 // <=
@@ -118,7 +118,7 @@ Cada tipo de dato tiene sus propias caracteristicas
 // == abstracta
 // !== estricta
 // !=  abstracta
-// console. log(3 === "3") // Evalua valor y tipo
+// console. log(3 === "3") // Evalua valo r y tipo
 // console.log(3 == "3") // valor
 
 // Operadores logicos -> booleano
