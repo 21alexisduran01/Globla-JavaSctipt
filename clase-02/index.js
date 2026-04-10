@@ -94,9 +94,9 @@ while (contador < 5) {
   contador++; // incrementador
   console.log(contador);
 }
-for (contador = 0; contador < 5; contador++) {
+/* for (var contador = 0; contador < 5; contador++) {
   console.log(contador);
-}
+} */
 var edad;
 
 do {
@@ -113,4 +113,38 @@ if (llueve) {
   console.log("Hago deporte");
 } else {
   console.log("Me quedo en casa jugando lolcito");
+}
+
+const nombre = "Alexis";
+const apellido = "Duran";
+const Edad = 24;
+
+var saludo = "Hola me llamo " + nombre + " y tengo" + edad + " años";
+
+const numero1 = 34;
+const numero2 = 33;
+
+const suma = numero1 + numero2;
+const producto = numero1 * numero2;
+
+console.log(suma);
+console.log(producto);
+
+var SeguiSumando = 0;
+
+while (SeguiSumando < 5) {
+  console.log(SeguiSumando);
+  SeguiSumando++;
+  1;
+}
+
+var nota = 72;
+if (nota >= 90) {
+  console.log("Ecxelente");
+} else if (nota >= 70) {
+  console.log("Bueno");
+} else if (nota >= 50) {
+  console.log("Regular");
+} else {
+  console.log("Insuficiente");
 }
